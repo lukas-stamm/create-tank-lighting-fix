@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.createtanklightingfix.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FluidTankBlockEntityAccessor",
+    "FluidTankBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
